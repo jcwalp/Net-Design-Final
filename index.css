@@ -11,13 +11,24 @@ html, body {
 body {
   height: 100%;
 }
-
+/* Nav  */
 nav {
   border-bottom-color: #55efc4;
   border-bottom-style: solid;
   border-bottom-width: thick;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
 }
 
 .nav-link {
   color: #2d3436 !important;
+}
+
+.nav-link:hover {
+  color: #636e72 !important;
+}
+
+/* Employee Login */
+label {
+  font-size: 16px;
 }
