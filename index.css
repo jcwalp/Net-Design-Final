@@ -5,7 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 200%;
-  background-color: #636e72;
+  background-color: #636e72 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -32,8 +32,22 @@ label {
   font-size: 16px;
 }
 
+.slides {
+  margin-top: 2em !important;
+}
 
-.carousel-container {
-  height: 50% !important;
+.carousel-item {
+  border-color: white;
+  border-width: thick;
+  border-style: solid;
+}
 
+h5 {
+  font-size: 64px !important;
+  font-weight: bold !important;
+}
+
+.carousel-caption-sub {
+  font-size: 32px !important;
+  font-weight: 300 !important;
 }
