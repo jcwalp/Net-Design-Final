@@ -5,7 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 200%;
-  background-color: #c8d6e5 !important;
+  background-color: #353b48 !important;
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -17,6 +17,7 @@ nav {
   border-bottom-width: thick;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
+  background-color: #b2bec3 !important;
 }
 
 .nav-link {
@@ -25,6 +26,11 @@ nav {
 
 .nav-link:hover {
   color: #636e72 !important;
+}
+
+.btn {
+  border-color: #2d3436 !important;
+  border-width: thin !important;
 }
 
 /* Employee Login */
@@ -45,6 +51,13 @@ label {
 h5 {
   font-size: 64px !important;
   font-weight: bold !important;
+  padding-bottom: 1.2em;
+}
+
+.green-line {
+  background-color: #55efc4;
+  height: 2px;
+  width: 50%;
 }
 
 .carousel-caption-sub {
@@ -66,6 +79,11 @@ h5 {
   background-color: white;
   height: 2px;
   width: 70%;
+}
+
+h1 {
+  color: white;
+  padding-top: 1.5em;
 }
 
 
