@@ -33,6 +33,11 @@ nav {
   border-width: thin !important;
 }
 
+.btn:hover {
+  background-color: #2d3436 !important;
+  color: white !important;
+}
+
 /* Employee Login */
 label {
   font-size: 16px;
@@ -51,8 +56,9 @@ label {
 h5 {
   font-size: 64px !important;
   font-weight: bold !important;
-  padding-bottom: 1.2em;
+  padding-bottom: 2.5em;
 }
+
 
 .green-line {
   background-color: #55efc4;
@@ -60,10 +66,6 @@ h5 {
   width: 50%;
 }
 
-.carousel-caption-sub {
-  font-size: 32px !important;
-  font-weight: 300 !important;
-}
 
 .about-row {
   text-align: center;
