@@ -4,13 +4,12 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 200%;
   background-color: #636e72;
   font-family: 'Montserrat', sans-serif !important;
 }
 
-body {
-  height: 100%;
-}
+
 /* Nav  */
 nav {
   border-bottom-color: #55efc4;
@@ -31,4 +30,10 @@ nav {
 /* Employee Login */
 label {
   font-size: 16px;
+}
+
+
+.carousel-container {
+  height: 50% !important;
+
 }
