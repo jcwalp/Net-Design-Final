@@ -48,7 +48,7 @@ label {
 }
 
 .carousel-item {
-  border-color: white;
+  border-color: #55efc4;
   border-width: thick;
   border-style: solid;
 }
@@ -66,6 +66,11 @@ h5 {
   width: 50%;
 }
 
+.about {
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+}
 
 .about-row {
   text-align: center;
@@ -86,6 +91,10 @@ h5 {
 h1 {
   color: white;
   padding-top: 1.5em;
+}
+
+p {
+  color: white;
 }
 
 
