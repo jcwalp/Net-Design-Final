@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="shop.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -73,14 +72,13 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="sidebar-heading">Shop </div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+        <a onclick="filterSelection('Cables')" class="list-group-item list-group-item-action bg-light">Cables</a>
+        <a onclick="filterSelection('Harddrives')" class="list-group-item list-group-item-action bg-light">Hard Drives</a>
+        <a onclick="filterSelection('Processors')" class="list-group-item list-group-item-action bg-light">Processors</a>
+        <a onclick="filterSelection('Motherboards')" class="list-group-item list-group-item-action bg-light">Motherboards</a>
+        <a onclick="filterSelection('PowerSupplies')" class="list-group-item list-group-item-action bg-light">Power Supplies</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -88,13 +86,14 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
 
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-
-
-
+      <button class="sidebar-toggle-button" id="menu-toggle"><i id="menu-toggle" class="fas fa-angle-left"></i></button>
 
       <div class="container-fluid">
-
+        <div class="filterDiv Cables">Cables</div>
+        <div class="filterDiv Harddrives">Hard Drives</div>
+        <div class="filterDiv Processors">Processors</div>
+        <div class="filterDiv Motherboards">Motherboards</div>
+        <div class="filterDiv PowerSupplies">Power Supplies</div>
       </div>
     </div>
     <!-- /#page-content-wrapper -->
@@ -103,17 +102,15 @@
   <!-- /#wrapper -->
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
   <!-- Menu Toggle Script -->
   <script>
     $("#menu-toggle").click(function(e) {
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
-      $("menu-toggle").addClass("fas fa-angle-down");
     });
-
   </script>
 
 
