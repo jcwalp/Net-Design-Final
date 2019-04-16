@@ -92,3 +92,8 @@ label {
 .sidebar-toggle-button:hover {
   color: white;
 }
+
+.products {
+  display: inline;
+  
+}
