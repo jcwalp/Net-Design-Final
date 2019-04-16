@@ -88,3 +88,7 @@ label {
   font-size: 64px;
   margin-top: 1em;
 }
+
+.sidebar-toggle-button:hover {
+  color: white;
+}
