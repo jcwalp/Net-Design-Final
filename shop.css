@@ -14,7 +14,7 @@ html, body {
   border-bottom-width: thick;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
-  background-color: #b2bec3 !important;
+  background-color: white !important;
 }
 
 .nav-link {
@@ -96,6 +96,7 @@ label {
 h1 {
   padding-left: 2em;
   padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 .products {
