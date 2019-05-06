@@ -130,3 +130,15 @@ h1 {
   margin-left: 12em;
   margin-top: 2em;
 }
+
+.banner img {
+  border-radius: 25px;
+}
+
+.modal-content {
+  padding: 4em;
+}
+
+.modal {
+  
+}
