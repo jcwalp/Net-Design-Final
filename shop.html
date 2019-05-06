@@ -17,6 +17,11 @@
 </head>
 
 <body>
+  <header>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </header>
   <!-- Nav -->
   <nav id="topNav" class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand" href="index.html">JWCS</a>
@@ -87,21 +92,206 @@
         <h1>Cables</h1>
         <div class="row">
           <div class="col-lg-12 products">
-            <a href="#cable1modal" data-toggle="modal" id="btn">
+            <a id="btn">
               <img src="cable1.jpg" alt="">
             </a>
-            <a href="">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Full Cable Set (Red)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cable1.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Full PC Cable Set (Red)</h3>
+                        <p>Includes complete set for every cable in your PC</p>
+                        <p>1 x 24 Pin ATX Extension Cable (300mm)<br>
+                          1 x 4+4 Pin EPS Cable (700mm)<br>
+                          1 x 8 pin / 4+4 pin EPS Cable (700mm)<br>
+                          4 x Dual 6+2 Pin PCI-e Cable (600mm)<br>
+                          1 x Quad SATA Power Cable (850mm)<br>
+                          1 x Quad SATA Power Cable (700mm)<br>
+                          1 x Dual SATA Power Cable (500mm)<br>
+                          1 x Triple 4-Pin Molex Cable (750mm)<br>
+                          1 x Dual 4-Pin Molex Cable (500mm)<br>
+                          1 x Molex to Floppy Adapter (100mm)</p>
+                        <h3>Price: $40.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn2">
               <img src="cable2.jpg" alt="">
             </a>
-            <a href="">
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Full Cable Set (White)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cable2.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Full PC Cable Set (White)</h3>
+                        <p>Includes complete set for every cable in your PC</p>
+                        <p>1 x 24 Pin ATX Extension Cable (300mm)<br>
+                          1 x 4+4 Pin EPS Cable (700mm)<br>
+                          1 x 8 pin / 4+4 pin EPS Cable (700mm)<br>
+                          4 x Dual 6+2 Pin PCI-e Cable (600mm)<br>
+                          1 x Quad SATA Power Cable (850mm)<br>
+                          1 x Quad SATA Power Cable (700mm)<br>
+                          1 x Dual SATA Power Cable (500mm)<br>
+                          1 x Triple 4-Pin Molex Cable (750mm)<br>
+                          1 x Dual 4-Pin Molex Cable (500mm)<br>
+                          1 x Molex to Floppy Adapter (100mm)</p>
+                        <h3>Price: $40.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn3">
               <img src="cable3.jpg" alt="">
             </a>
-            <a href="">
+            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Full Cable Set (Orange)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cable3.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Full PC Cable Set (Orange)</h3>
+                        <p>Includes complete set for every cable in your PC</p>
+                        <p>1 x 24 Pin ATX Extension Cable (300mm)<br>
+                          1 x 4+4 Pin EPS Cable (700mm)<br>
+                          1 x 8 pin / 4+4 pin EPS Cable (700mm)<br>
+                          4 x Dual 6+2 Pin PCI-e Cable (600mm)<br>
+                          1 x Quad SATA Power Cable (850mm)<br>
+                          1 x Quad SATA Power Cable (700mm)<br>
+                          1 x Dual SATA Power Cable (500mm)<br>
+                          1 x Triple 4-Pin Molex Cable (750mm)<br>
+                          1 x Dual 4-Pin Molex Cable (500mm)<br>
+                          1 x Molex to Floppy Adapter (100mm)</p>
+                        <h3>Price: $40.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn4">
               <img src="cable4.jpg" alt="">
             </a>
-            <a href="#">
+            <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Full Cable Set (Green)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cable4.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Full PC Cable Set (Green)</h3>
+                        <p>Includes complete set for every cable in your PC</p>
+                        <p>1 x 24 Pin ATX Extension Cable (300mm)<br>
+                          1 x 4+4 Pin EPS Cable (700mm)<br>
+                          1 x 8 pin / 4+4 pin EPS Cable (700mm)<br>
+                          4 x Dual 6+2 Pin PCI-e Cable (600mm)<br>
+                          1 x Quad SATA Power Cable (850mm)<br>
+                          1 x Quad SATA Power Cable (700mm)<br>
+                          1 x Dual SATA Power Cable (500mm)<br>
+                          1 x Triple 4-Pin Molex Cable (750mm)<br>
+                          1 x Dual 4-Pin Molex Cable (500mm)<br>
+                          1 x Molex to Floppy Adapter (100mm)</p>
+                        <h3>Price: $40.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn5">
               <img src="cable5.jpg" alt="">
             </a>
+            <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Full Cable Set (Blue)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cable5.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Full PC Cable Set (Blue)</h3>
+                        <p>Includes complete set for every cable in your PC</p>
+                        <p>1 x 24 Pin ATX Extension Cable (300mm)<br>
+                          1 x 4+4 Pin EPS Cable (700mm)<br>
+                          1 x 8 pin / 4+4 pin EPS Cable (700mm)<br>
+                          4 x Dual 6+2 Pin PCI-e Cable (600mm)<br>
+                          1 x Quad SATA Power Cable (850mm)<br>
+                          1 x Quad SATA Power Cable (700mm)<br>
+                          1 x Dual SATA Power Cable (500mm)<br>
+                          1 x Triple 4-Pin Molex Cable (750mm)<br>
+                          1 x Dual 4-Pin Molex Cable (500mm)<br>
+                          1 x Molex to Floppy Adapter (100mm)</p>
+                        <h3>Price: $40.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -111,15 +301,120 @@
         <h1>Hard Drives</h1>
         <div class="row">
           <div class="col-lg-12 products">
-            <a href="">
+            <a id="btn6">
               <img src="hdd1.jpg" alt="">
             </a>
-            <a href="">
+            <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">WD Blue 1TB Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb/s 16MB Cache 3.5 Inch - WD5000AAKX</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="hdd1.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>WD Blue 1TB Desktop Hard Disk Drive</h3>
+                        <p>IntelliSeek: Calculates optimum seek speeds to lower power consumption, noise and vibration. <br>
+                          <br>
+                          Data LifeGuard: Advanced algorithms monitor your drive continuously so it stays in optimum health. <br>
+                          <br>
+                          NoTouch Ramp Load Technology: Safely positions the recording head off the disk surface to protect your data. <br>
+                          <br>
+                          2-year seller waranty <br>
+                          <br>
+                          Package includes a hard drive only - no screws, cables, manuals included. Please purchase mounting hardware and cables separately if necessary.</p>
+                        <h3>Price: $22.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn7">
               <img src="hdd2.jpg" alt="">
             </a>
-            <a href="">
+            <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">WD Blue 3TB Desktop Hard Disk Drive - 7200 RPM SATA 6 Gb/s 16MB Cache 3.5 Inch - WD5000AAKX</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="hdd2.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>WD Blue 1TB Desktop Hard Disk Drive</h3>
+                        <p>IntelliSeek: Calculates optimum seek speeds to lower power consumption, noise and vibration. <br>
+                          <br>
+                          Data LifeGuard: Advanced algorithms monitor your drive continuously so it stays in optimum health. <br>
+                          <br>
+                          NoTouch Ramp Load Technology: Safely positions the recording head off the disk surface to protect your data. <br>
+                          <br>
+                          2-year seller waranty <br>
+                          <br>
+                          Package includes a hard drive only - no screws, cables, manuals included. Please purchase mounting hardware and cables separately if necessary.</p>
+                        <h3>Price: $49.00</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="btn8">
               <img src="hdd3.jpg" alt="">
             </a>
+            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Western Digital Blue 4TB PC Hard Drive - 5400 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5" - WD30EZRZ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="hdd3.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>WD Blue 4TB Desktop Hard Disk Drive</h3>
+                        <p>IntelliSeek: Calculates optimum seek speeds to lower power consumption, noise and vibration. <br>
+                          <br>
+                          Data LifeGuard: Advanced algorithms monitor your drive continuously so it stays in optimum health. <br>
+                          <br>
+                          NoTouch Ramp Load Technology: Safely positions the recording head off the disk surface to protect your data. <br>
+                          <br>
+                          2-year seller waranty <br>
+                          <br>
+                          Package includes a hard drive only - no screws, cables, manuals included. Please purchase mounting hardware and cables separately if necessary.</p>
+                        <h3>Price: $84.99</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -129,89 +424,194 @@
         <h1>Processors</h1>
         <div class="row">
           <div class="col-lg-12 products">
-            <a href="">
+            <a id="btn9">
               <img src="cpu1.jpg" alt="">
             </a>
-            <a href="">
-              <img src="cpu2.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="cpu3.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="cpu4.jpg" alt="">
-            </a>
-            <a href="#">
-              <img src="cpu5.jpg" alt="">
-            </a>
+            <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Intel Core i9-9900K Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I99900K Desktop Processor Intel UHD Graphics 630</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="cpu1.jpg" alt="">
+                    <hr>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3>Intel Core i9-9900K Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo)</h3>
+                        <p>9th Gen Intel Processor <br>
+                          Intel UHD Graphics 630 <br>
+                          Socket LGA 1151 (300 Series) <br>
+                          Max Turbo Frequency 5.0 GHz <br>
+                          Unlocked Processor <br>
+                          DDR4 Support <br>
+                          Intel Optane Memory and SSD Supported <br>
+                          Cooling device not included - Processor Only <br>
+                          Intel Turbo Boost Technology 2.0 and Intel vPro technology offer pro-level performance for gaming, creating, and overall productivity</p>
+                        <h3>Price: $84.99</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="filterDiv Motherboards">
-        <h1>Motherboards</h1>
-        <div class="row">
-          <div class="col-lg-12 products">
-            <a href="">
-              <img src="mb1.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="mb2.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="mb3.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="mb4.jpg" alt="">
-            </a>
-            <a href="#">
-              <img src="mb5.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="filterDiv PowerSupplies">
-        <h1>Power Supplies</h1>
-        <div class="row">
-          <div class="col-lg-12 products">
-            <a href="">
-              <img src="psu1.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="psu2.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="psu3.jpg" alt="">
-            </a>
-            <a href="">
-              <img src="psu4.jpg" alt="">
-            </a>
-            <a href="#">
-              <img src="psu5.jpg" alt="">
-            </a>
-          </div>
+    <a id="btn10">
+      <img src="cpu2.jpg" alt="">
+    </a>
+    <a id="btn11">
+      <img src="cpu3.jpg" alt="">
+    </a>
+    <a id="btn12">
+      <img src="cpu4.jpg" alt="">
+    </a>
+    <a id="btn13">
+      <img src="cpu5.jpg" alt="">
+    </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="filterDiv Motherboards">
+      <h1>Motherboards</h1>
+      <div class="row">
+        <div class="col-lg-12 products">
+          <a id="btn14">
+            <img src="mb1.jpg" alt="">
+          </a>
+          <a id="btn15">
+            <img src="mb2.jpg" alt="">
+          </a>
+          <a id="btn16">
+            <img src="mb3.jpg" alt="">
+          </a>
+          <a id="btn17">
+            <img src="mb4.jpg" alt="">
+          </a>
+          <a id="btn18">
+            <img src="mb5.jpg" alt="">
+          </a>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="modal fade" id="cable1modal" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-
+  <div class="row">
+    <div class="filterDiv PowerSupplies">
+      <h1>Power Supplies</h1>
+      <div class="row">
+        <div class="col-lg-12 products">
+          <a id="btn19">
+            <img src="psu1.jpg" alt="">
+          </a>
+          <a id="btn20">
+            <img src="psu2.jpg" alt="">
+          </a>
+          <a id="btn21">
+            <img src="psu3.jpg" alt="">
+          </a>
+          <a id="btn22">
+            <img src="psu4.jpg" alt="">
+          </a>
+          <a id="btn23">
+            <img src="psu5.jpg" alt="">
+          </a>
         </div>
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+      <h3>Learn How To Build A PC</h3>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6U8RQZNv-gg" allowfullscreen></iframe>
+        <!-- This is actually My pc build -->
+      </div>
+    </div>
+  </div>
+  </div>
+
 
   <script>
     $(document).ready(function() {
       $("#btn").click(function() {
-        $("#cable1modal").modal();
+        $("#exampleModal").modal();
+      });
+      $("#btn2").click(function() {
+        $("#exampleModal2").modal();
+      });
+      $("#btn3").click(function() {
+        $("#exampleModal3").modal();
+      });
+      $("#btn4").click(function() {
+        $("#exampleModal4").modal();
+      });
+      $("#btn5").click(function() {
+        $("#exampleModal5").modal();
+      });
+      $("#btn6").click(function() {
+        $("#exampleModal6").modal();
+      });
+      $("#btn7").click(function() {
+        $("#exampleModal7").modal();
+      });
+      $("#btn8").click(function() {
+        $("#exampleModal8").modal();
+      });
+      $("#btn9").click(function() {
+        $("#exampleModal9").modal();
+      });
+      $("#btn10").click(function() {
+        $("#exampleModal10").modal();
+      });
+      $("#btn11").click(function() {
+        $("#exampleModal11").modal();
+      });
+      $("#btn12").click(function() {
+        $("#exampleModal12").modal();
+      });
+      $("#btn13").click(function() {
+        $("#exampleModal13").modal();
+      });
+      $("#btn14").click(function() {
+        $("#exampleModal14").modal();
+      });
+      $("#btn15").click(function() {
+        $("#exampleModal15").modal();
+      });
+      $("#btn16").click(function() {
+        $("#exampleModal16").modal();
+      });
+      $("#btn17").click(function() {
+        $("#exampleModal17").modal();
+      });
+      $("#btn18").click(function() {
+        $("#exampleModal18").modal();
+      });
+      $("#btn19").click(function() {
+        $("#exampleModal19").modal();
+      });
+      $("#btn20").click(function() {
+        $("#exampleModal20").modal();
+      });
+      $("#btn21").click(function() {
+        $("#exampleModal21").modal();
+      });
+      $("#btn22").click(function() {
+        $("#exampleModal22").modal();
+      });
+      $("#btn23").click(function() {
+        $("#exampleModal23").modal();
       });
     });
   </script>

@@ -122,6 +122,10 @@ h1 {
   border-top-width: thin;
 }
 
+.modal img, .modal img:hover{
+  border: none;
+}
+
 .banner {
   margin-left: 12em;
   margin-top: 2em;
