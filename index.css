@@ -25,6 +25,10 @@ nav {
   color: #636e72 !important;
 }
 
+input {
+  margin-bottom: 10px;
+}
+
 .btn {
   border-color: #2d3436 !important;
   border-width: thin !important;
